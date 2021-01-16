@@ -21,9 +21,8 @@
 }
 .sign-up {
   font-size: 18px;
-  padding-top: 45px;
+  padding-top: 15px;
   text-align: center;
-  padding-top: 85px;
 }
 .paragraph {
   margin: 3px;
@@ -110,6 +109,9 @@ button {
   font-size: 12px;
   text-align: center;
 
+}
+.radio_buttons {
+  display: inline;
 }
 input[type="radio"],
 input[type="checkbox"] {

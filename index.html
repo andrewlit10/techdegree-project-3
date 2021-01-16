@@ -46,15 +46,19 @@
           <label for="zip">Zip Code</label>
           <input type="text" id="zip" name="user_zip">
     </form>
-
-          <label>Newsletter format</label>
-          <input type="radio" id="html" value="html" name="html">
-          <label for="html" class="user_format">HTML</label>
-          <input type="radio" id="plain-text" value="plain-text" name="plain-text">
-          <label for="plain-text" class="user_format">Plain Text</label>
-
+  
 <form>
     <h2 class="section-header">Newsletter</h2>
+
+
+        <form class="radio_buttons">
+            <label>Newsletter format</label>
+            <input type="radio" id="html" value="html" name="user_format">
+            <label for="html" class="user_format">HTML</label>
+            <input type="radio" id="plain-text" value="plain-text" name="user_format">
+            <label for="plain-text" class="user_format">Plain Text</label>
+        </form>
+
           <label for="topics">Other topics you'd like to hear about</label>
           <textarea id="topics" name="user_topics"></textarea>
 
