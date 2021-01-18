@@ -13,7 +13,7 @@
 .top-banner {
   background-color: #0d1c36;
   padding: 15px;
-  margin: -10px;
+
 
 }
 .website-title {
@@ -88,6 +88,7 @@ input[type="radio"] + label,
 input[type="checkbox"] + label {
   margin: 0 4px 8px 0;
   display: inline;
+  justify-content: left;
 }
 textarea {
   height: 100px;
@@ -116,11 +117,7 @@ button {
 .radio_buttons {
   display: inline;
 }
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 0 4px 8px 0;
-  text-align: left;
-}
+
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
