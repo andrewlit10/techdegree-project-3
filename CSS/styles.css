@@ -121,6 +121,15 @@ button {
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-
-
+  .container {
+    width: 60%;
+  }
+  label {
+    float: left;
+    display: inline;
+  }
+  input {
+  float: right;
+  display: inline;
+  }
 }
