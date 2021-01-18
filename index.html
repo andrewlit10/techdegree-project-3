@@ -10,7 +10,7 @@
 <header class="top-banner">
   <h1 class="website-title">The Code Review</h1>
 </header>
-  <div id="container">
+  <div class="container">
 
           <h2 class="sign-up">Signup for our newsletter</h2>
         <p class="paragraph">Get the latest news on how your code is doing right in your inbox</p>
@@ -39,8 +39,55 @@
           <select id="state" name="user_state">
             <option value="" disabled selected>Choose State</option>
             <option value="alabama">Alabama</option>
-            <option value="alaska">Alaska</option>
-            <option value="arizona">Arizona</option>
+                        <option value="alaska">Alaska</option>
+                        <option value="arizona">Arizona</option>
+                        <option value="arkansas">Arkansas</option>
+                        <option value="california">California</option>
+                        <option value="colorado">Colorado</option>
+                        <option value="connecticut">Connecticut</option>
+                        <option value="delaware">Delaware</option>
+                        <option value="florida">Florida</option>
+                        <option value="georgia">Georgia</option>
+                        <option value="hawaii">Hawaii</option>
+                        <option value="idaho">Idaho</option>
+                        <option value="illinois">Illinois</option>
+                        <option value="indiana">Indiana</option>
+                        <option value="iowa">Iowa</option>
+                        <option value="kansas">Kansas</option>
+                        <option value="kentucky">Kentucky</option>
+                        <option value="louisiana">Louisiana</option>
+                        <option value="maine">Maine</option>
+                        <option value="maryland">Maryland</option>
+                        <option value="massachusetts">Massachusetts</option>
+                        <option value="michigan">Michigan</option>
+                        <option value="minnesota">Minnesota</option>
+                        <option value="mississippi">Mississippi</option>
+                        <option value="missouri">Missouri</option>
+                        <option value="montana">Montana</option>
+                        <option value="nebraska">Nebraska</option>
+                        <option value="nevada">Nevada</option>
+                        <option value="new-hampshire">New Hampshire</option>
+                        <option value="new-jersey">New Jersey</option>
+                        <option value="new-mexico">New Mexico</option>
+                        <option value="new-york">New York</option>
+                        <option value="north-carolina">North Carolina</option>
+                        <option value="north-dakota">North Dakota</option>
+                        <option value="ohio">Ohio</option>
+                        <option value="oklahoma">Oklahoma</option>
+                        <option value="oregon">Oregon</option>
+                        <option value="pennsylvania">Pennsylvania</option>
+                        <option value="rhode-island">Rhode Island</option>
+                        <option value="south-carolina">South Carolina</option>
+                        <option value="south-dakota">South Dakota</option>
+                        <option value="tennessee">Tennessee</option>
+                        <option value="texas">Texas</option>
+                        <option value="utah">Utah</option>
+                        <option value="vermont">Vermont</option>
+                        <option value="virginia">Virginia</option>
+                        <option value="washington">Washington</option>
+                        <option value="west-virginia">West Virginia</option>
+                        <option value="wisconsin">Wisconsin</option>
+                        <option value="wyoming">Wyoming</option>
           </select>
 
           <label for="zip">Zip Code</label>
@@ -50,23 +97,23 @@
 <form>
     <h2 class="section-header">Newsletter</h2>
 
-            <label for="user_format">Select the newsletters you would like to receive</label>
+            <label for="user_format" class="newsletter_header">Select the newsletters you would like to receive</label>
             <input type="checkbox" id="html_news" value="html_news" name="user_news">
-            <label for="html_news">HTML News</label>
+            <label for="html_news">HTML News</label><br>
             <input type="checkbox" id="css_news" value="css_news" name="user_news">
-            <label for="css_news">CSS News</label>
+            <label for="css_news">CSS News</label><br>
             <input type="checkbox" id="javascript_news" id="javascript_news" value="javascript_news" name="user_news">
             <label for="javascript_news">Javascript News</label>
 
         <form class="radio_buttons">
-            <label>Newsletter format</label>
+            <label for="user_format" class="newsletter_header">Newsletter format</label>
             <input type="radio" id="html" value="html" name="user_format">
-            <label for="html" class="user_format">HTML</label>
+            <label for="html" class="user_format">HTML</label><br>
             <input type="radio" id="plain-text" value="plain-text" name="user_format">
-            <label for="plain-text" class="user_format">Plain Text</label>
+            <label for="plain-text" class="user_format">Plain Text</label><br>
         </form>
 
-          <label for="topics">Other topics you'd like to hear about</label>
+          <label for="topics" class="newsletter_header">Other topics you'd like to hear about</label>
           <textarea id="topics" name="user_topics"></textarea>
 
           <button type="submit">Sign Up</button>
