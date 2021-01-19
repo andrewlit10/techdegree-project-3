@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=320px, initial-scale=1.0">
+    <meta name="viewport" content="width= 320px, initial-scale=1">
     <title>An Online Registration Form</title>
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/styles.css">
@@ -11,18 +11,18 @@
 <header class="top-banner">
   <h1 class="website-title">The Code Review</h1>
 </header>
+<body>
   <div class="container">
 
           <h2 class="sign-up">Signup for our newsletter</h2>
         <p class="paragraph">Get the latest news on how your code is doing right in your inbox</p>
-          <h2 class="section-header">Contact Information</h2>
+        <form action="index.html" method="post" class="form">
+          <fieldset>
+            <legend>Contact Information</legend>
 
-<fieldset class="fieldset">
-      <form action="index.html" method="post">
 
-
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="user_name" placeholder="Required">
+          <label for="name" class="contact_label">Full Name</label>
+          <input type="text" id="name" name="user_name" placeholder="Required" class="contact_input">
 
           <label for="email">Email Address</label>
           <input type="email" id="email" name="user_email" placeholder="Required">
@@ -89,38 +89,39 @@
                         <option value="west-virginia">West Virginia</option>
                         <option value="wisconsin">Wisconsin</option>
                         <option value="wyoming">Wyoming</option>
-          </select>
+                    </select>
 
-          <label for="zip">Zip Code</label>
-          <input type="text" id="zip" name="user_zip">
-    </form>
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" name="user_zip">
+              </fieldset>
 
-<form>
-    <h2 class="section-header">Newsletter</h2>
 
-            <label for="user_format" class="newsletter_header">Select the newsletters you would like to receive</label>
-            <input type="checkbox" id="html_news" value="html_news" name="user_news">
-            <label for="html_news">HTML News</label><br>
-            <input type="checkbox" id="css_news" value="css_news" name="user_news">
-            <label for="css_news">CSS News</label><br>
-            <input type="checkbox" id="javascript_news" id="javascript_news" value="javascript_news" name="user_news">
-            <label for="javascript_news">Javascript News</label>
+            <fieldset class="fieldset">
+              <legend>Newsletter</legend>
 
-        <form class="radio_buttons">
-            <label for="user_format" class="newsletter_header">Newsletter format</label>
-            <input type="radio" id="html" value="html" name="user_format">
-            <label for="html" class="user_format">HTML</label><br>
-            <input type="radio" id="plain-text" value="plain-text" name="user_format">
-            <label for="plain-text" class="user_format">Plain Text</label><br>
-        </form>
+                <label class="newsletter_header">Select the newsletters you would like to receive</label>
+                <input type="checkbox" id="html_news" value="html_news" name="user_news">
+                <label for="html_news">HTML News</label><br>
+                <input type="checkbox" id="css_news" value="css_news" name="user_news">
+                <label for="css_news">CSS News</label><br>
+                <input type="checkbox" id="javascript_news" id="javascript_news" value="javascript_news" name="user_news">
+                <label for="javascript_news">Javascript News</label>
 
-          <label for="topics" class="newsletter_header">Other topics you'd like to hear about</label>
-          <textarea id="topics" name="user_topics"></textarea>
 
-          <button type="submit">Sign Up</button>
-  </form>
-  <footer class="copyright">Copyright The Code Review</footer>
-</fieldset>
+                <label for="user_format" class="newsletter_header">Newsletter Format</label>
+                <input type="radio" id="html" value="html" name="user_format">
+                <label for="html" class="user_format">HTML</label><br>
+                <input type="radio" id="plain-text" value="plain-text" name="user_format">
+                <label for="plain-text" class="user_format">Plain Text</label><br>
 
-</div>
+
+              <label for="topics" class="newsletter_header">Other topics you'd like to hear about</label>
+              <textarea id="topics" name="user_topics"></textarea>
+
+              <button type="submit">Sign Up</button>
+</body>
+              <footer class="copyright">Copyright The Code Review</footer>
+        </fieldset>
+      </form>
+  </div>
 </html>

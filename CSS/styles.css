@@ -1,22 +1,15 @@
 * {
-  width: 100%;
-  box-sizing: border-box;
-  font-family: "Trirong", sans-sans-serif;
-  justify-content: center;
-  margin: 0 auto;
-}
-.container {
-  margin: 0 auto;
-  width: 95%;
-
+  font-family: "Trirong", sans-serif;
 }
 .top-banner {
   background-color: #0d1c36;
   padding: 15px;
-
-
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .website-title {
+  display: block;
   color: white;
   font-size: 20px;
   text-transform: uppercase;
@@ -25,9 +18,8 @@
 }
 .sign-up {
   font-size: 18px;
-  padding-top: 15px;
+  padding-top: 85px;
   text-align: center;
-
 }
 .paragraph {
   margin: 0;
@@ -36,15 +28,15 @@
   padding-bottom: 20px;
   text-align: center;
 }
-.section-header {
-  margin: 3px;
+legend {
+  margin-top: 15px;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 20px;
   border-top: 2px solid #0d1c36;
   font-size: 22px;
 
 }
-.fieldset {
+fieldset {
   border: none;
 }
 ::placeholder {
@@ -70,8 +62,6 @@ select {
   color: #8a97a0;
   margin-bottom: 30px;
   width: 95%;
-  border-radius: 5px;
-  border-width: 1px 1px 3px;
   overflow: scroll;
 
 }
@@ -115,21 +105,21 @@ button {
 
 }
 .radio_buttons {
-  display: inline;
+  padding-bottom: 5px;
 }
-
+.container {
+  width: 90%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-  .container {
-    width: 60%;
+  .form {
+    width: 65%;
+    align-items: center;
   }
-  label {
-    float: left;
-    display: inline;
-  }
-  input {
-  float: right;
-  display: inline;
-  }
+
 }
