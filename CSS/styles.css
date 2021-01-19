@@ -84,17 +84,22 @@ textarea {
   height: 100px;
   width: 100%;
   resize: none;
+  max-width: 300px;
+  max-height: 200px;
+  overflow: scroll;
 }
 button {
+  width: 90%;
+  max-width: 320px;
   padding: 8px 8px 8px 8px;
   color: #FFF;
   background-color: #4dd1c2;
   font-size: 20px;
   text-align: center;
   border-radius: 5px;
-  width: 100%;
   border-color: #4dd1c2;
   margin-bottom: 10px;
+
 }
 
 .copyright {
