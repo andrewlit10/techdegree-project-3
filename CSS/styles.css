@@ -28,16 +28,21 @@
   padding-bottom: 20px;
   text-align: center;
 }
-legend {
-  margin-top: 15px;
-  text-align: left;
-  padding-top: 20px;
+.top-form,
+.fieldset {
   border-top: 2px solid #0d1c36;
+  width: 90%;
+
+}
+legend {
+  padding-top: 20px;
+  text-align: left;
   font-size: 22px;
 
 }
 fieldset {
   border: none;
+
 }
 ::placeholder {
   text-align: right;
@@ -53,8 +58,8 @@ input[type="city"],
 input[type="state"],
 textarea,
 select {
-  background: rgba(255,255,255,0.1);
   border: none;
+  background: rgba(255,255,255,0.1);
   font-size: 16px;
   text-align: left;
   padding: 10px;
@@ -64,12 +69,19 @@ select {
   width: 95%;
   overflow: scroll;
 
+
+}
+input {
+  border-radius: 5px;
+  border: 1px;
+
 }
 
 label {
   text-align: left;
   display: block;
   padding-bottom: 10px;
+
 }
 #zip {
   width: 125px;
