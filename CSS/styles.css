@@ -100,6 +100,14 @@ width: 100%;
 .newsletter-header {
   text-align: left;
 }
+.newsletter-checkbox {
+  background-color: #F5B1A2;
+  border-radius: 10px;
+  border: 1px 1px 1px 1px;
+}
+.newsletter-checkbox:hover {
+  opacity: 0.6;
+}
 input[type="radio"] + label,
 input[type="checkbox"] + label {
   margin: 0 4px 8px 0;
@@ -165,7 +173,7 @@ footer {
     flex-basis: 70%;
     margin-left: 10%;
     align-self: flex-end;
-    
+
 }
 legend {
   padding-top: 20px;
